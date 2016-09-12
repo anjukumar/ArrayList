@@ -18,6 +18,7 @@ public class MovieArray
 		}
 		while (res.equalsIgnoreCase("yes"));
 		sc.close();
+		Collections.sort(movieList); 
 		for (String temp:movieList) { 
 		    System.out.println(temp); 
 		}
